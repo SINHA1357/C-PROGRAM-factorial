@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    unsigned long long fact = 1;
+    int n, i;
+
+    printf("Enter any integer:");
+    scanf("%d", &n);
+
+    if(n < 0){
+        printf("Eror! Factorial of a negative integer doesn't exist.");
+    }
+    else{
+        for(i=1; i<=n; i++){
+            fact *= i;
+        }
+        printf("Facctorial of %d = %llu", n, fact);
+    }
+    return 0;
+}
