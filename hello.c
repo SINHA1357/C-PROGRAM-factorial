@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //FACCTORIAL OF AN INTEGER
 int main() {
     unsigned long long fact = 1;
     int n, i;
